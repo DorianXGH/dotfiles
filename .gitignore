@@ -1,6 +1,9 @@
 *
-!alactitty
+!alacritty
+!alacritty/*
 !i3
+!i3/*
 !polybar
+!polybar/*
 !picom.conf
 
