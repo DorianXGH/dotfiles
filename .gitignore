@@ -5,5 +5,7 @@
 !i3/*
 !polybar
 !polybar/*
+!powerline
+!powerline/*
 !picom.conf
 

@@ -1,0 +1,12 @@
+{
+	"common": {
+		"term_truecolor": false
+	},
+	"ext": {
+			
+		"wm": {
+			"colorscheme": "default",
+			"theme": "default"
+		}
+	}
+}
