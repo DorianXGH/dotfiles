@@ -1,0 +1,91 @@
+{
+	"segments": {
+		"right": [
+			{
+				"function": "powerline.segments.common.sys.memory_usage",
+				"name": "mem",
+				"args": {
+					"format": "\ue32b {absolute:.1f}G/{total:.1f}G"
+				}
+			},
+			{
+				"function": "powerline.segments.common.volume.vol",
+				"name": "vol",
+				"args": {
+					"format": "\ue050 {volume:3.0%}",
+					"format_muted": "\ue04f"
+				}
+			},
+			{
+				"function": "powerline.segments.common.bat.battery",
+				"name": "gamify",
+				"args": {
+					"name": "icon",
+					"icons": {
+						"0":"\uf244",
+						"25":"\uf243",
+						"50":"\uf242",
+						"75":"\uf241",
+						"100":"\uf240"
+					}
+				}
+			},
+			{
+				"function": "powerline.segments.common.bat.battery",
+				"name": "rem_time",
+				"args": {
+					"name": "rem_time",
+					"rem_time_format": "\ue425 %Hh%Mm"
+				}
+			},
+			{
+				"function": "powerline.segments.common.time.date",
+				"args": {
+					"format" : "%d/%m/%Y \ue24f"
+				}
+
+			},
+			{
+				"function": "powerline.segments.common.time.date",
+				"name": "time",
+				"args": {
+					"format": "%H:%M \ue8ae",
+					"istime": true
+				}
+			}
+		],
+		"left": [
+			{
+				"function": "powerline.segments.common.env.user",
+				"before" : "\uf103 "
+			},
+			{
+				"function": "powerline.segments.common.net.external_ip",
+				"before": "\ue1b3 "
+			},
+			{
+				"function": "powerline.segments.common.net.network_manager",
+				"args": {
+					"format": "\ue1e2 {connection}",
+					"name": "wifi"
+				}
+			},
+			{
+				"function": "powerline.segments.common.net.wireless",
+				"args": {
+					"auto_shrink": true
+				}
+			},
+			{
+				"function": "powerline.segments.i3wm.mode"
+			},
+			{
+				"function": "powerline.segments.i3wm.workspaces"
+			},
+			{
+				"function": "powerline.segments.common.env.clip",
+				"before": "\ue226 "
+			}
+		]
+	}
+}

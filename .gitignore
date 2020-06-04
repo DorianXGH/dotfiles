@@ -1,11 +1,11 @@
 *
 !alacritty
-!alacritty/*
+!alacritty/**
 !i3
-!i3/*
+!i3/**
 !polybar
-!polybar/*
+!polybar/**
 !powerline
-!powerline/*
+!powerline/**
 !picom.conf
 !MenloNerdComplete.ttf
