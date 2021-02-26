@@ -36,8 +36,8 @@
 			"attrs": []
 		},
 		"critical:success": {
-			"fg": "solarized:base3",
-			"bg": "solarized:green",
+			"fg": "arez:bg",
+			"bg": "arez:green",
 			"attrs": []
 		},
 		"background": {
@@ -51,8 +51,8 @@
 			"attrs": []
 		},
 		"user": {
-			"fg": "solarized:base3",
-			"bg": "solarized:blue",
+			"fg": "arez:black",
+			"bg": "arez:white",
 			"attrs": [
 				"bold"
 			]
@@ -110,19 +110,19 @@
 			"bg": "solarized:green",
 			"attrs": []
 		},
-		"attached_clients": {
-			"fg": "solarized:base3",
-			"bg": "solarized:green",
+		"wireless:quality": {
+			"fg": "arez:bg",
+			"bg": "arez:brblack",
 			"attrs": []
 		},
 		"date": {
-			"fg": "solarized:base1",
-			"bg": "solarized:base02",
+			"fg": "arez:brblack",
+			"bg": "arez:bg",
 			"attrs": []
 		},
 		"time": {
-			"fg": "solarized:base3",
-			"bg": "solarized:magenta",
+			"fg": "arez:white",
+			"bg": "arez:brblack",
 			"attrs": [
 				"bold"
 			]
@@ -152,29 +152,34 @@
 			"bg": "solarized:base03",
 			"attrs": []
 		},
-		"battery": {
-			"fg": "solarized:base3",
-			"bg": "solarized:yellow",
+		"battery_gradient": {
+			"fg": "arez:bg",
+			"bg": "arez:brblack",
 			"attrs": []
 		},
-		"memory_usage": {
-			"fg": "solarized:base3",
-			"bg": "solarized:red",
+		"battery": {
+			"fg": "arez:white",
+			"bg": "arez:black",
+			"attrs": []
+		},
+		"memory_usage_gradient": {
+			"fg": "arez:bg",
+			"bg": "arez:brblack",
 			"attrs": []
 		},
 		"clip": {
-			"fg": "solarized:base3",
-			"bg": "solarized:yellow",
+			"fg": "arez:bg",
+			"bg": "arez:brblack",
 			"attrs": []
 		},
 		"mode": {
-			"fg": "solarized:base3",
-			"bg": "solarized:red",
+			"fg": "arez:fg",
+			"bg": "arez:red",
 			"attrs": []
 		},
 		"workspace": {
-			"fg": "solarized:base01",
-			"bg": "solarized:base02",
+			"fg": "arez:brblack",
+			"bg": "arez:bg",
 			"attrs": []
 		},
 		"workspace:visible": {
@@ -183,13 +188,18 @@
 			"attrs": []
 		},
 		"workspace:focused": {
-			"fg": "solarized:base01",
-			"bg": "solarized:base3",
+			"fg": "arez:bg",
+			"bg": "arez:white",
 			"attrs": []
 		},
 		"workspace:urgent": {
 			"fg": "solarized:base3",
 			"bg": "solarized:red",
+			"attrs": []
+		},
+		"volume:gradient": {
+			"fg": "arez:black",
+			"bg": "arez:white",
 			"attrs": []
 		}
 	}

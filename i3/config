@@ -192,10 +192,10 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 exec "powerline-lemonbar --height 22 -- -b -f 'Menlo for Powerline-14' -f 'PowerlineSymbols-15' -f 'font\-logos-13' -f 'FontAwesome-14' -f 'Material Icons-16'"
 
-client.focused          #002b36 #586e75 #fdf6e3 #268bd2
-client.focused_inactive #002b36 #073642 #839496 #073642
-client.unfocused        #002b36 #073642 #839496 #073642
-client.urgent           #002b36 #dc322f #fdf6e3 #002b36
+client.focused          #002b36 #754277 #ab8eab #ab8eab #754277
+client.focused_inactive #002b36 #462344 #754277 #754277 #462344
+client.unfocused        #002b36 #462344 #754277 #754277 #462344
+client.urgent           #002b36 #ab8eab #c5c8c6 #c5c8c6 #ab8eab
 
 gaps inner 10
 gaps outer 0

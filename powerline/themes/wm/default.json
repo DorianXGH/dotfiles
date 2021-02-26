@@ -18,16 +18,20 @@
 			},
 			{
 				"function": "powerline.segments.common.bat.battery",
-				"name": "gamify",
+				"name": "status",
 				"args": {
-					"name": "icon",
+					"name": "capacity",
 					"icons": {
 						"0":"\uf244",
 						"25":"\uf243",
 						"50":"\uf242",
 						"75":"\uf241",
-						"100":"\uf240"
-					}
+						"100":"\uf240",
+						"online":"\uf240",
+						"offline":"\uf244",
+						"full":"\uf240"
+					},
+					"format": "\uf241 {capacity:3.0%}"
 				}
 			},
 			{
