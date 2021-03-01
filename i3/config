@@ -47,7 +47,7 @@ bindsym $mod+Return exec alacritty
 bindsym $mod+Shift+a kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec rofi -show drun -icon-theme Numix-Circle -show-icons -font "Menlo for Powerline 12" 
+bindsym $mod+d exec rofi -show drun -icon-theme Numix-Circle -show-icons -font "Menlo for Powerline 14" 
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -205,4 +205,4 @@ exec zsh ~/.fehbg
 bindsym $mod+p exec "/home/dorianb/i3-quickterm/i3-quickterm"
 bindsym $mod+b exec "/home/dorianb/i3-quickterm/i3-quickterm shell"
 
-exec "picom"
+exec "picom --experimental-backends"

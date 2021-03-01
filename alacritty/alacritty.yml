@@ -5,7 +5,7 @@ colors:
   # Default colors
   primary:
     background: '0x1b1a31'
-    foreground: '0xc5c8c6'
+    foreground: '0xe6d1e6'
 
   # Normal colors
   normal:
@@ -27,8 +27,8 @@ colors:
     blue:    '0x5b97c5'
     magenta: '0xb294bb'
     cyan:    '0x6bf0dc'
-    white:   '0xc5c8c6'
- 
+    white:   '0xf2dcf2'
+
 
 # # Colors (Solarized Dark)
 # colors:
